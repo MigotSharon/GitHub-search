@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GitService } from '../services/git.service';
+import { GitService } from '../git-service.service';
 import{ User } from '../user';
 import{ Repo } from '../repo';
 
@@ -18,7 +18,7 @@ export class OpenComponent implements OnInit {
   getUser(gitName){
     this.gitService.getUser(gitName).then(
       (success)=>{
-        this.user= this.gitService.user;
+        this.user= import this.gitService.user;
       },
       (error)=>{
         console.log(error);
@@ -27,7 +27,7 @@ export class OpenComponent implements OnInit {
     this.gitService.getRepo(gitName).then(
       (success)=>{
         this.repo= this.gitService.repo;
-      },
+      },import { environment } from '../..environments';
       (error)=>{
         console.log(error);
       }
