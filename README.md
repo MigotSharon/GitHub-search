@@ -1,5 +1,14 @@
-# Repo
+# project Name
+* Repo
 
+# Author
+* Migot Sharon
+
+# Description
+* This is an app where users can enter a GitHub username into a form, submit it, and see names and descriptions of   various person's public repositories. A user can also search  for repositories in GitHub
+
+# Live link
+* 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
 ## Development server
@@ -25,5 +34,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# GitHub-search
-# GitHub-search
+
+# set up instructions
+* Open Terminal {Ctrl+Alt+T}
+* git clone 
+* cd GitHub-search
+* code 
+
+# Contact information
+Email:migotsharon@gmail.com if you want to contribute
+
+# LICENSE and copyright information
+* MIT LICENCE</a>
+This  project is licence under <a href="https://opensource.org/licenses/MIT"></a>
+copyright (c) 2020 MigotSharon
+[MIT](https://github.com/MigotSharon/GitHub-search/blob/master/LICENSE)
+
