@@ -10,9 +10,9 @@
                 <h4> PROFILE</h4>
                 <h5 class="card-title" *ngIf="user.name"> Name:{{ user.name}}</h5>
                 <p class="card-text">Username: {{ user.login }}</p>
-                <a href="{{user.html_url}}" class="btn btn-primary" target="_blank">View Github</a><br><br>
-                <button class="btn btn-primary"> Following: {{user.following}}</button><br><br>
-                <button class="btn btn-warning"> followers: {{user.followers}}</button>
+                <a href="{{user.html_url}}" class="btn btn-danger" target="_blank">View Github</a><br><br>
+                <button class="btn btn-secondary"> Following: {{user.following}}</button><br><br>
+                <button class="btn btn-info"> followers: {{user.followers}}</button>
             </div>
 
         </div>
@@ -25,7 +25,7 @@
                 <h3 class="card-title">{{repos.name}}</h3>
                 <hr>
                 <p> {{repos.description}} </p>
-                <a href="{{ repos.html_url}}" class="btn btn-primary" target="_blank">View More</a>
+                <a href="{{ repos.html_url}}" class="btn btn-success" target="_blank">View More</a>
             </div>
 
         </div>
