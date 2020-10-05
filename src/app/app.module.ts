@@ -5,21 +5,26 @@ import{ FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { FormComponent } from './form/form.component';
+import { HttpClientModule } from '@angular/common/http';
 import { OpenComponent } from './open/open.component';
-import { RepoComponent } from './repo/repo.component';
+import { FormComponent } from './form/form.component';
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FormComponent,
     OpenComponent,
-    RepoComponent
+    FormComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
