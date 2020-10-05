@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormComponent } from './form/form.component';
 import { OpenComponent } from './open/open.component';
+import { RepoComponent } from './repo/repo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FormComponent,
-    OpenComponent
+    OpenComponent,
+    RepoComponent
   ],
   imports: [
     BrowserModule,
