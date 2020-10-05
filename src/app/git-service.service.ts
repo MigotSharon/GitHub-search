@@ -45,28 +45,4 @@ export class GitService {
     });
     return promise;
   }
-  getRepo(gitName:string){
-    interface ApiResponse{
-      html_url:string,
-      name:string,
-      repos_url:string,
-      description:string,
-    }
-    let promise = new Promise((resolve, reject) => {
-      let apiURL = 'https://api.github.com/users/' + gitName + '/repos?access_token=' + environment.apikey;
-      this.http.get<ApiResponse>(apiURL)
-        .toPromise()
-        .then(
-          res => { // Success
-            this.repo = res;
-            resolve();
-          },
-          (error)=>{
-            reject();
-          }
-        );
-    });
-    return promise;
-  }
 }
-
