@@ -1,19 +1,3 @@
-/* .card-title{
+.card-title{
 color: olive;
-} */
-/* 
-h2{
-    color: green;
-} 
-}
-.para{
-    color: rgb(255, 81, 0);
-    font-size: 25px;
-} */
-.container-fluid{
-    background-image: url(../../assets/repo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
 }
