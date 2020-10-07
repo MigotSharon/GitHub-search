@@ -8,6 +8,7 @@
 * This is an app where users can enter a GitHub username into a form, submit it, and see names and descriptions of   various person's public repositories. A user can also search  for repositories in GitHub
 
 # Live link
+
 * 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
